@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44116527-7930-4e27-9af2-97c4f69d97ca" name="Changes" comment="Fixed API call" />
+    <list default="true" id="44116527-7930-4e27-9af2-97c4f69d97ca" name="Changes" comment="Initial Commit.  Simple web application that uses the ChatGPT API.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +78,7 @@
       <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FlaskChat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,7 +158,7 @@
       <workItem from="1684163416782" duration="256000" />
       <workItem from="1684164297632" duration="653000" />
       <workItem from="1684165006275" duration="127000" />
-      <workItem from="1684165137036" duration="96000" />
+      <workItem from="1684165137036" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored ChatGPT API into a class.  &#10;Started CSS and clean up page format.">
       <created>1682618343354</created>
@@ -192,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684164639179</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial Commit.  Simple web application that uses the ChatGPT API.">
+      <created>1684165251642</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684165251642</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,13 +239,14 @@
     <MESSAGE value="added a utility snippet to interact with the ChatAPI class." />
     <MESSAGE value="Added docker capability.  It's a little janky, but it works." />
     <MESSAGE value="Fixed API call" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed API call" />
+    <MESSAGE value="Initial Commit.  Simple web application that uses the ChatGPT API." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit.  Simple web application that uses the ChatGPT API." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FlaskChat$FlaskChat.coverage" NAME="FlaskChat Coverage Results" MODIFIED="1682702788600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlaskChat$testAPI.coverage" NAME="testAPI Coverage Results" MODIFIED="1682717220188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlaskChat$chat_api.coverage" NAME="chat_api Coverage Results" MODIFIED="1682691694933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlaskChat$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1683664010193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/FlaskChat$app.coverage" NAME="app Coverage Results" MODIFIED="1683664033554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlaskChat$app.coverage" NAME="app Coverage Results" MODIFIED="1684165405863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
