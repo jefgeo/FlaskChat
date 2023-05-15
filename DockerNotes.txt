@@ -1,0 +1,18 @@
+# Move image to another machine
+##Copy image to tar:
+docker save -o ./testfile.tar 6651a1e869d5
+## Load image from tar:
+docker load -i ./testfile.tar
+## Create Container from Image (with Port Mapping)
+docker run -d -p 5999:5000 6651a1e869d5
+
+# Other Docker commands
+## List Containers
+docker ps
+
+## Cleanup
+docker image prune —all -f
+docker container prune -f
+
+## List images
+docker images

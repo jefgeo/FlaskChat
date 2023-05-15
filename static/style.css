@@ -1,0 +1,36 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.question {
+    background-color: lightblue;
+}
+.answer {
+    background-color: lightgray;
+}
+
+label {
+    vertical-align: top;
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    color: black;
+    padding: 3px;
+    width: 80%;
+}
+
+.stats {
+    font-size: xx-small;
+    border: lightgray;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    width: 100%
+}
+
+button {
+    background-color: darkblue;
+    color: aliceblue;
+}

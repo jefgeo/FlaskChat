@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<link rel="stylesheet" href=../static/style.css>
+<head>
+    <meta charset="UTF-8">
+    <title>Chat GPT Interface</title>
+</head>
+
+<body>
+    <h1>Chat GPT Interface</h1>
+
+    <form method="post">
+        <div>
+            <label for="question">Question:<br>
+                <textarea name="question" placeholder="<question>" rows = 5
+                          class="question">{{ request.form['question'] }}</textarea>
+            </label>
+        </div>
+        <div>
+            <p>
+            <button type="submit" class="btn btn-primary">Submit Question to ChatGPT</button>
+            </p>
+        </div>
+    </form>
+
+    <div>
+        <label for="answer">Answer:<br>
+            <textarea class="answer" rows = 5>{{answer}}
+            </textarea>
+        </label>
+    </div>
+
+    <div class="stats">
+        <br><br><br>
+        <label for="stats">Stats:<br>
+            <textarea rows = 1>{{stats}}
+            </textarea>
+        </label>
+    </div>
+
+</body>
+</html>
